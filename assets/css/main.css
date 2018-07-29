@@ -3742,6 +3742,7 @@ input, select, textarea {
 /* Wrapper */
 
 	#wrapper {
+		margin-top: -5vh;
 		width: 64em;
 		max-width: calc(100% - 4em);
 		margin: 0 auto;
