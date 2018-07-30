@@ -2345,7 +2345,7 @@ input, select, textarea {
 		border-radius: 8px;
 		border: 0;
 		display: inline-block;
-		position: relative;
+		/* position: relative; */
 		text-align: center;
 	}
 
