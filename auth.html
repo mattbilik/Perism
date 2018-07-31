@@ -105,7 +105,7 @@
     window.addEventListener('load', function() {
 
       var config = JSON.parse(
-        decodeURIComponent(escape(window.atob('@@config@@')))
+        decodeURIComponent(escape('@@config@@'))
       );
 
       var params = Object.assign({
