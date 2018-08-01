@@ -1,11 +1,34 @@
 {
-  "name": "oxcomthus",
+  "name": "perism",
   "version": "1.0.0",
   "description": "A new way to learn  ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Matthew Bilik",
+  "license": "MIT",
+  "dependencies": {
+    "auth0-js": "^9.7.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skrumb/perism.git"
+  },
+  "keywords": [
+    "tech",
+    "learning",
+    "education",
+    "app",
+    "fun",
+    "school",
+    "new",
+    "programming",
+    "course"
+  ],
+  "bugs": {
+    "url": "https://github.com/skrumb/perism/issues"
+  },
+  "homepage": "https://github.com/skrumb/perism#readme"
 }

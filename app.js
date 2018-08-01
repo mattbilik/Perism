@@ -1,15 +1,19 @@
+window.addEventListener('load', function() {
 
+  var webAuth = new auth0.WebAuth({
+    domain: 'perism.auth0.com',
+    clientID: 'zAMeDEMvV92aLChquVVnPCh2f7otpytC',
+    responseType: 'token id_token',
+    audience: 'https://perism.auth0.com/userinfo',
+    scope: 'openid',
+    redirectUri: window.location.href
+  });
 
-var user_id = 0;
-let auth_token = 0;
+  var loginBtn = document.getElementById('btn-login');
 
-$("#button").onclick = function loadAuth(user_id, auth_token){
-console.log('Authenticated')
-document.getElementById('headline').innerHTML = "Checking..."
-apiLoad();
-}
+  loginBtn.addEventListener('click', function(e) {
+    e.preventDefault();
+    webAuth.authorize();
+  });
 
-function apiLoad(){
-  let xhr  =  new XMLHttpRequest();
-xhr.send('GET','put the fucking link in here','FALSE');
-}
+});
