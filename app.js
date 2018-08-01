@@ -92,3 +92,7 @@ window.addEventListener('load', function() {
     }
   }
 });
+window.addEventListener('load', function() {
+console.log('Logged on!')
+  handleAuthentication();
+});
