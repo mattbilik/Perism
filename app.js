@@ -12,8 +12,7 @@ window.addEventListener('load', function() {
   var loginBtn = document.getElementById('btn-login');
 
   loginBtn.addEventListener('click', function(e) {
-    e.preventDefault();
-    webAuth.authorize();
+window.location.href = "http://www.perism.com/survey";
   });
 
 });
