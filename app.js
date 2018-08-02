@@ -6,9 +6,7 @@ window.addEventListener('load', function() {
     var auth = document.getElementById('password').innerHTML
 
       window.location.href = "http://www.perism.net/survey";
-    else{
-      document.getElementById('error-message').style.display = "inline";
-    }
+
   });
 
 });
