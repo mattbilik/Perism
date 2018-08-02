@@ -10,9 +10,16 @@ window.addEventListener('load', function() {
   });
 
   var loginBtn = document.getElementById('btn-login');
-
   loginBtn.addEventListener('click', function(e) {
-window.location.href = "http://www.perism.com/survey";
+    var auth = document.getElementById('password').innerHTML
+    if(auth === '12345'){
+
+      window.location.href = "http://www.perism.com/survey";
+
+    }
+    else{
+      document.getElementById('error-message').style.display = "inline";
+    }
   });
 
 });
