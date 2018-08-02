@@ -14,7 +14,7 @@ window.addEventListener('load', function() {
     var auth = document.getElementById('password').innerHTML
     if(auth === '12345'){
 
-      window.location.href = "http://www.perism.com/survey";
+      window.location.href = "http://www.perism.net/survey";
 
     }
     else{
