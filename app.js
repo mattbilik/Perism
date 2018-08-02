@@ -94,6 +94,6 @@ window.addEventListener('load', function() {
 });
 window.addEventListener('load', function() {
 console.log('Logged on!')
-document.getElementById('log').innerHTML ="Logging on..."
+// document.getElementById('log').innerHTML ="Logging on..."
   handleAuthentication();
 });
