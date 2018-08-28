@@ -18,7 +18,6 @@ app.config['MYSQL_PORT'] = 3306
 
 #init MySQL
 mysql = MySQL(app)
-
 Courses = Courses()
 app.debug = True
 @app.route('/')
