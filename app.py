@@ -9,11 +9,11 @@ from functools import wraps
 app = fl(__name__)
 
 # Config MySQL
-app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'leiakkk4545'
-app.config['MYSQL_DB'] = 'perism'
-app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
+app.config['MYSQL_HOST'] = 'nah'
+app.config['MYSQL_USER'] = 'dude come on'
+app.config['MYSQL_PASSWORD'] = 'nope'
+app.config['MYSQL_DB'] = 'nada'
+app.config['MYSQL_CURSORCLASS'] = 'not getting it'
 app.config['MYSQL_PORT'] = 3306
 
 #init MySQL
@@ -123,5 +123,5 @@ def appy():
     return rt('app.html', courses = Courses)
 
 if __name__ == '__main__':
-    app.secret_key='GingerfuckyoU124!'
+    app.secret_key='yeah no you arent getting this'
     app.run()
