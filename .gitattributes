@@ -1,7 +1,7 @@
 templates/* linguist-vendored
 assets/* linguist-vendored
 node_modules/* linguist-vendored
-node_modules/* linguist-vendored
+node_modules/idtoken-verifier/docs/* linguist-vendored
 
 # Source files
 # ============
